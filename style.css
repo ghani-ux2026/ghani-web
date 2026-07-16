@@ -1,0 +1,212 @@
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+body{
+    background:#f2f2f2;
+}
+
+header{
+    background:#0d1b3d;
+    color:white;
+    text-align:center;
+    padding:30px;
+}
+
+header h1{
+    font-size:35px;
+}
+
+header p{
+    margin-top:8px;
+    font-size:14px;
+}
+
+nav{
+    background:#132852;
+}
+
+nav ul{
+    display:flex;
+    justify-content:center;
+    list-style:none;
+}
+
+nav ul li{
+    margin:0 15px;
+}
+
+nav ul li a{
+    display:block;
+    color:white;
+    text-decoration:none;
+    padding:15px;
+    transition:.3s;
+}
+
+nav ul li a:hover{
+    background:#284d9b;
+    border-radius:5px;
+}
+
+.container{
+    width:90%;
+    max-width:1000px;
+    margin:20px auto;
+    display:flex;
+    gap:20px;
+}
+
+
+main{
+    flex:3;
+    background:white;
+    padding:20px;
+    border-radius:5px;
+    box-shadow:0 0 8px rgba(0,0,0,0.2);
+}
+
+main h2{
+    margin-bottom:20px;
+}
+
+main h3{
+    margin-top:15px;
+    color:#222;
+}
+
+main p{
+    margin-top:5px;
+    color:#555;
+    line-height:1.6;
+}
+
+
+aside{
+    flex:1;
+    background:white;
+    padding:20px;
+    border-radius:5px;
+    box-shadow:0 0 8px rgba(0,0,0,0.2);
+}
+
+aside h2{
+    margin-bottom:15px;
+}
+
+aside ul{
+    padding-left:20px;
+}
+
+aside li{
+    margin-bottom:10px;
+}
+
+footer{
+    background:#0d1b3d;
+    color:white;
+    text-align:center;
+    padding:18px;
+    margin-top:20px;
+}
+
+@media(max-width:768px){
+
+    .container{
+        flex-direction:column;
+    }
+
+    nav ul{
+        flex-direction:column;
+        text-align:center;
+    }
+
+    nav ul li{
+        margin:0;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: arial, sans-serif;
+    line-height: 1.6;
+    background-color: f2f2f2f;
+}
+
+header {
+  background-color: #1E3A8A;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+nav {
+background-color: #222;
+display: flex;
+justify-content: center;
+}
+
+nav a {
+background-color: #222;
+text-decoration: none;
+padding: 5px;
+}
+
+nav:hover {
+
+}
+
+.container {
+
+}
+
+
+main {
+background: white;
+}
+
+aside {
+background-color: white;
+text-align: right;
+width: 40px;
+height: 50px;
+}
+
+footer {
+background-color: #1b263b;
+text-align: center;
+} */
